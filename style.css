@@ -60,7 +60,7 @@ body {
 }
 
 /* media screen */
-@media screen and (min-width: 577px) and (maz-width: 960px) {
+@media screen and (min-width: 577px) and (max-width: 960px) {
   /* company */
   .imgwidth {
     width: 25%;
@@ -73,7 +73,7 @@ body {
 }
 
 /* media screen */
-@media screen and (maz-width: 576px) {
+@media screen and (max-width: 576px) {
   /* company */
   .imgwidth {
     width: 25%;
