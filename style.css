@@ -1,0 +1,86 @@
+/* font */
+@font-face {
+  font-family: Poppines;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: clash display;
+  src: url(./fonts/ClashDisplay-Regular.otf);
+}
+
+/* variables */
+:root {
+  --primary-color: #dbdbdb;
+}
+
+/* body */
+body {
+  font-family: Poppines;
+}
+
+.fontclash {
+  font-family: clash display;
+}
+
+/* navbar section */
+.linkscolor {
+  color: var(--primary-color);
+}
+
+/* hero section */
+.headingcolor {
+  background: linear-gradient(90deg, #a734bd 0%, #ff006a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bordercard {
+  background: #34213480;
+  backdrop-filter: blur(26px);
+  border: 1px solid;
+  border-image: white;
+}
+
+/* features */
+.firstcard {
+  background: #f9035c;
+}
+
+.secondcard {
+  background: #f90370;
+}
+
+.thirdcard {
+  background: #d31993;
+}
+
+.fourthcard {
+  background: #af2fb5;
+}
+
+/* media screen */
+@media screen and (min-width: 577px) and (maz-width: 960px) {
+  /* company */
+  .imgwidth {
+    width: 25%;
+  }
+
+  /* footer */
+  .foot {
+    width: 50%;
+  }
+}
+
+/* media screen */
+@media screen and (maz-width: 576px) {
+  /* company */
+  .imgwidth {
+    width: 25%;
+  }
+
+  /* footer */
+  .foot {
+    width: 100%;
+  }
+}
